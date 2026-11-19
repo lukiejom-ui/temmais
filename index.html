@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- (c) 2026 SEIIER - All rights reserved - GS-A2C12364D562 - Copying, hosting or redistributing is prohibited. -->
+<html lang="en" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- o site ja tem as suas proprias linguas: bloqueia o tradutor automatico do Chrome -->
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
+<meta name="description" content="SEIIER SALES · Hot Premium Folders">
+<meta name="theme-color" content="#1A0B1E">
+<meta name="author" content="SEIIER">
+<meta name="copyright" content="(c) 2026 SEIIER - All rights reserved - GS-A2C12364D562">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SEIIER SALES · Hot Premium Folders">
+<meta property="og:description" content="Verified seller · Preview before you buy · Fast delivery">
+<!-- Para aparecer imagem quando partilhas o link no Telegram/WhatsApp, tira os comentarios e poe o link COMPLETO do teu site:
+<meta property="og:image" content="https://TEU-USER.github.io/TEU-REPO/profile.jpg"> -->
+<title>SEIIER · Hot Premium Folders</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&family=Noto+Sans+Arabic:wght@400;700;800&family=Noto+Sans+SC:wght@400;700;800&family=Noto+Sans+JP:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="extras.css">
+</head>
+<body>
+
+<div class="bar"><nav class="wrap topbar" aria-label="Main menu">
+  <span class="brand">SEIIER</span>
+  <div class="bar-r">
+    <label class="lang">
+      <span aria-hidden="true">🌐</span>
+      <select id="lang" data-i18n-aria="langLabel" aria-label="Language"></select>
+    </label>
+    <a class="btn btn-hot bar-dm" id="dmBar" target="_blank" rel="noopener" data-i18n="dmAccess">DM ACCESS</a>
+  </div>
+</nav></div>
+
+<header class="wrap hero">
+  <div>
+    <h1><span>SEIIER SALES</span></h1>
+    <p class="tag" data-i18n="tag">WE DON'T JUST SELL PRODUCTS / WE DELIVER TRUST, QUALITY, AND SATISFACTION. 🔥👑</p>
+    <div class="cta-row">
+      <a class="btn btn-hot" href="#catalog" data-i18n="seeFolders">See the folders</a>
+      <a class="btn btn-hot" id="dmTop" target="_blank" rel="noopener" data-i18n="dmAccess">DM ACCESS</a>
+      <a class="btn btn-ghost" id="chanTop" target="_blank" rel="noopener" data-i18n="tgChannel">TELEGRAM CHANNEL</a>
+    </div>
+  </div>
+  <aside class="profile">
+    <div class="avatar" id="avatar"><img src="profile.jpg" alt="SEIIER" style="object-position:50% 30%" onerror="this.outerHTML='<div class=ini>G</div>'"></div>
+    <div>
+      <h2>SEIIER</h2>
+      <div class="handle">@seiier_xx</div>
+      <div class="badges"><span class="badge" data-i18n="verified">Verified seller</span><span class="badge" data-i18n="online">Online now</span><span class="badge" data-i18n="fast">Fast delivery</span></div>
+    </div>
+    <div class="stats">
+      <div><b id="statN">37</b><small data-i18n="statFolders">Folders</small></div>
+      <div><b>24/7</b><small data-i18n="statSupport">Support</small></div>
+      <div><b data-i18n="statReplyVal">5 min</b><small data-i18n="statReply">Avg. reply</small></div>
+    </div>
+  </aside>
+</header>
+
+<div class="wrap"><div class="trust"><span data-i18n="verified">Verified seller</span><span data-i18n="g1h">Safe process</span><span data-i18n="fast">Fast delivery</span></div></div>
+
+<main class="wrap" id="catalog">
+  <div class="sec-head"><h2 data-i18n="collection">The collection</h2><span data-i18n="tapPreview">Tap PREVIEW to watch before you buy</span></div>
+  <div class="tools">
+    <div class="search"><input id="q" type="search" autocomplete="off" placeholder="Search folders" data-i18n-ph="sPh"></div>
+    <div class="chips" id="pf" role="group"></div>
+    <select id="sort" class="sort" data-i18n-aria="sortDef" aria-label="Sort"></select>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden data-i18n="empty">No folders found. Try another search.</p>
+
+  <div class="sec-head"><h2 data-i18n="how">How it works</h2></div>
+  <div class="info">
+    <div class="tile reveal"><h3 data-i18n="s1h">1. Choose</h3><p data-i18n="s1p">Browse the cards and open PREVIEW to see what is inside the folder.</p></div>
+    <div class="tile reveal"><h3 data-i18n="s2h">2. Message</h3><p data-i18n="s2p">Tap Buy Now. Telegram opens with the message ready. Just press send.</p></div>
+    <div class="tile reveal"><h3 data-i18n="s3h">3. Pay and receive</h3><p data-i18n="s3p">I guide you through payment and send your access right here on Telegram.</p></div>
+  </div>
+
+  <div class="sec-head"><h2 data-i18n="good">Good to know</h2></div>
+  <div class="info">
+    <div class="tile reveal"><h3 data-i18n="g1h">Safe process</h3><p data-i18n="g1p">All talks happen directly with me on Telegram. No middlemen.</p></div>
+    <div class="tile reveal"><h3 data-i18n="g2h">Updates</h3><p data-i18n="g2p">New folders are posted on the channel first. Join so you do not miss them.</p></div>
+    <div class="tile reveal"><h3 data-i18n="g3h">Any question?</h3><p data-i18n="g3p">Send a DM and I will answer as soon as I am online.</p></div>
+  </div>
+
+  <section id="proof" hidden>
+    <div class="sec-head"><h2 data-i18n="proofH">Client feedback</h2></div>
+    <div class="proof" id="proofGrid"></div>
+  </section>
+
+  <section class="faq">
+    <div class="sec-head"><h2 data-i18n="faqH">Questions</h2></div>
+    <details class="reveal"><summary data-i18n="f1q">How do I pay?</summary><p data-i18n="s3p">I guide you through payment and send your access right here on Telegram.</p></details>
+    <details class="reveal"><summary data-i18n="f2q">Can I see a preview first?</summary><p data-i18n="s1p">Browse the cards and open PREVIEW to see what is inside the folder.</p></details>
+    <details class="reveal"><summary data-i18n="f3q">Is it safe?</summary><p data-i18n="g1p">All talks happen directly with me on Telegram. No middlemen.</p></details>
+    <details class="reveal"><summary data-i18n="f4q">How do I hear about new folders?</summary><p data-i18n="g2p">New folders are posted on the channel first. Join so you do not miss them.</p></details>
+  </section>
+
+  <section class="channel">
+    <h2 data-i18n="joinH">Join the Telegram channel</h2>
+    <p data-i18n="joinP">New folders and updates are posted there first.</p>
+    <a class="btn" id="chanBtn" target="_blank" rel="noopener" data-i18n="joinBtn">Join the channel</a>
+  </section>
+</main>
+
+<footer data-i18n="footer">© SEIIER · Hot Premium. All rights reserved.</footer>
+
+<a class="fab" id="fab" target="_blank" rel="noopener" data-i18n-aria="dmAria" aria-label="DM ACCESS on Telegram">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+  <span data-i18n="dmAccess">DM ACCESS</span>
+</a>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" data-i18n-aria="previewAria" aria-label="Preview">
+  <div class="modal-box">
+    <div class="modal-top"><b id="mTitle"></b><button class="x" id="mClose" data-i18n-aria="close" aria-label="Close">&times;</button></div>
+    <div class="frame" id="frame"></div>
+    <div class="modal-bot"><a class="btn btn-hot" id="mBuy" target="_blank" rel="noopener" data-i18n="buyNow">Buy Now</a></div>
+  </div>
+</div>
+
+<script src="guard.js"></script>
+<script src="videos.js"></script>
+<script src="prices.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+<script src="extras.js"></script>
+</body>
+</html>
