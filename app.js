@@ -1,4 +1,4 @@
-// (c) 2026 GRIM - todos os direitos reservados - ID GS-A2C12364D562
+// (c) 2026 SEIIER - todos os direitos reservados - ID GS-A2C12364D562
 // =====================================================
 // app.js  -  cards, mensagem Telegram, PREVIEW e LINGUAS
 // Depende de: videos.js, prices.js e i18n.js (carregados antes)
@@ -16,7 +16,7 @@ var CONFIG = {
 };
 
 // ---- GUARD embutido (assinatura digital) - parte essencial do app.js ----
-// Se este bloco for removido, o site deixa de funcionar (GRIM_SEC nao existe).
+// Se este bloco for removido, o site deixa de funcionar (SEIIER nao existe).
 var GRIM_SEC = (function () {
   'use strict';
   var PUB = /*PUB*/'MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJgTG/FrHaZAlAAqyMK3n1j5+elSqbl8R9bTVp9u9z6FmXqX7qO0aNDW0ga7inHM6UPk9sJTnW/J4YN+TMXWKqA=='/*END*/;                 // chave publica (escrita pelo sign.js)
@@ -365,5 +365,5 @@ var GRIM_SEC = (function () {
 
   // arranque
   setLang(detectLang());
-  GRIM_SEC.watch();   // vigia alteracoes (embutido)
+  SEIIER.watch();   // vigia alteracoes (embutido)
 })();
